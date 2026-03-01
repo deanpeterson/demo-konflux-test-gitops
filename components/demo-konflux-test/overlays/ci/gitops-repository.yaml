@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: demo-konflux-test-gitops-repository
+spec:
+  url: https://github.com/deanpeterson/demo-konflux-test-gitops
